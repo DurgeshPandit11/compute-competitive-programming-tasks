@@ -1,2 +1,2 @@
 cpp files have code
-Also attached output screen shots
+Also attached output screenshots
