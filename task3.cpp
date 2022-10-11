@@ -4,8 +4,10 @@ using namespace std;
 int main()
 {
     int n, i, j, temp;
+    
     cin >> n;
     
+    // Acceping array a 
     int a[n], b[n];
     for(i = 0; i < n; i++)
     {
@@ -19,12 +21,13 @@ int main()
         return 0;
     }
     
+    // Copying array a to array b
     for(i = 0; i < n; i++)
     {
         b[i] = a[i];
     }
     
-    // Sorting the array
+    // Sorting array b
     for(i = 1; i <= n; i++)
     {
         for(j = 1; j < n; j++)
@@ -38,8 +41,7 @@ int main()
         }
     }
     
-   
-    // Making lexicographically smallest combination 
+   // Making lexicographically smallest combination 
     for(i = 0; i < n; i++)
     {
         if(a[i] == b[i])
