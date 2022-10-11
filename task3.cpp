@@ -12,7 +12,7 @@ int main()
         cin >> a[i];
     }
     
-    // if array length is 1 
+    // if array length is 1, no combination exists 
     if(n == 1)
     {
         cout << "-1";
@@ -59,7 +59,7 @@ int main()
         }
     }
     
-    // Displaying the array
+    // Displaying the combination
     for(i = 0; i < n; i++)
     {
         cout << b[i] << " ";
